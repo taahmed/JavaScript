@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Java Script Assignment-One </title>
+    </head>
+    <body>
+        <p>Welcome to my calculator</p>
+        
+        <div id ='sum'>Sum: 5+7 </div>
+
+        <script>
+        
+        //create or declare three variables to store needed information
+        var num1;
+        var num2;
+        var result;
+
+        //Initialization 
+        num1 = 5;
+        num2 = 7;
+
+        //Calculate sum
+        result = num1 + num2;
+        
+        //get element with sum by id
+        var el =document.getElementById("sum");
+        el.textContent ="The sum of " +  num1 +" + "+ num2 + " is : " + result;
+        </script>
+
+    </body>
+</html>
